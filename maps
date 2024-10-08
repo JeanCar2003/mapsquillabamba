@@ -1,1 +1,265 @@
-ñ
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Marker Icons</title>
+  <style>
+    .marker {
+      position: relative;
+      width: 12px; 
+      height: 12px; 
+      border-radius: 10%; 
+      background-color: #FF5733; /* Color original para la mayoría de los marcadores */
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+    }
+
+    .marker-number {
+      font-size: 10px; 
+      color: #ffffff; 
+      font-weight: bold; 
+    }
+
+    .marker-green {
+      background-color: #28a745; /* Color verde para el marcador especial */
+    }
+  </style>
+</head>
+<body>
+  <gmp-map center="-12.861, -72.694" zoom="15" map-id="DEMO_MAP_ID">
+    <gmp-advanced-marker position="-12.86375, -72.688583" title="Dirección 1">
+      <div class="marker">
+        <div class="marker-number">1</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.8645, -72.69575" title="Dirección 2">
+      <div class="marker">
+        <div class="marker-number">2</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.875472, -72.694361" title="Dirección 3">
+      <div class="marker">
+        <div class="marker-number">3</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <!-- Duplicado con desplazamiento y color diferente -->
+    <gmp-advanced-marker position="-12.875462, -72.694301" title="Dirección 4">
+      <div class="marker marker-green">
+        <div class="marker-number">4</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.875167, -72.697972" title="Dirección 5">
+      <div class="marker">
+        <div class="marker-number">5</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <!-- Duplicado con desplazamiento -->
+    <gmp-advanced-marker position="-12.875157, -72.697912" title="Dirección 6">
+      <div class="marker marker-green">
+        <div class="marker-number">6</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.885861, -72.695472" title="Dirección 7">
+      <div class="marker">
+        <div class="marker-number">7</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.861917, -72.693472" title="Dirección 8">
+      <div class="marker">
+        <div class="marker-number">8</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <!-- Duplicado con desplazamiento -->
+    <gmp-advanced-marker position="-12.861907, -72.693412" title="Dirección 9">
+      <div class="marker marker-green">
+        <div class="marker-number">9</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.861778, -72.694806" title="Dirección 10">
+      <div class="marker">
+        <div class="marker-number">10</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <!-- Duplicado con desplazamiento -->
+    <gmp-advanced-marker position="-12.861768, -72.694746" title="Dirección 11">
+      <div class="marker marker-green">
+        <div class="marker-number">11</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.859639, -72.692194" title="Dirección 12">
+      <div class="marker">
+        <div class="marker-number">12</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <!-- Duplicado con desplazamiento -->
+    <gmp-advanced-marker position="-12.859629, -72.692134" title="Dirección 13">
+      <div class="marker marker-green">
+        <div class="marker-number">13</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.870194, -72.691194" title="Dirección 14">
+      <div class="marker">
+        <div class="marker-number">14</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.870028, -72.690944" title="Dirección 15">
+      <div class="marker">
+        <div class="marker-number">15</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.876167, -72.698333" title="Dirección 16">
+      <div class="marker">
+        <div class="marker-number">16</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.873778, -72.691917" title="Dirección 17">
+      <div class="marker">
+        <div class="marker-number">17</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.859139, -72.705167" title="Dirección 18">
+      <div class="marker">
+        <div class="marker-number">18</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.871667, -72.693389" title="Dirección 19">
+      <div class="marker">
+        <div class="marker-number">19</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.874694, -72.693694" title="Dirección 20">
+      <div class="marker">
+        <div class="marker-number">20</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <!-- Duplicado con desplazamiento -->
+    <gmp-advanced-marker position="-12.874684, -72.693634" title="Dirección 21">
+      <div class="marker marker-green">
+        <div class="marker-number">21</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.878639, -72.689361" title="Dirección 22">
+      <div class="marker">
+        <div class="marker-number">22</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.860944, -72.692806" title="Dirección 23">
+      <div class="marker">
+        <div class="marker-number">23</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <!-- Duplicado con desplazamiento -->
+    <gmp-advanced-marker position="-12.860934, -72.692746" title="Dirección 24">
+      <div class="marker marker-green">
+        <div class="marker-number">24</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.869944, -72.693528" title="Dirección 25">
+      <div class="marker">
+        <div class="marker-number">25</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.873944, -72.696694" title="Dirección 26">
+      <div class="marker">
+        <div class="marker-number">26</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.8745, -72.690861" title="Dirección 27">
+      <div class="marker">
+        <div class="marker-number">27</div>
+      </div>
+    </gmp-advanced-marker>
+
+    <gmp-advanced-marker position="-12.869028, -72.700222" title="Dirección 28">
+      <div class="marker">
+        <div class="marker-number">28</div>
+      </div>
+    </gmp-advanced-marker>
+    
+  </gmp-map>
+
+  <!-- Script de Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&loading=async&libraries=marker&v=beta&solution_channel=GMP_CCS_complexmarkers_v3" defer></script>
+  <script src="https://cdn.jsdelivr.net/gh/googlemaps/v3-utility-library@master/markerwithlabel.js"></script>
+  <script src="https://www.gstatic.com/earth/batch/gmp-script.js"></script>
+</body>
+</html>
+
+/* styles.css */
+
+/* Estilo general para el contenedor del mapa */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Estilo para el mapa */
+gmp-map {
+  width: 100%;
+  height: 80vh; /* Ajusta la altura del mapa */
+  border: 2px solid #ccc; /* Bordes alrededor del mapa */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para los marcadores */
+.marker {
+  position: relative;
+  width: 24px; /* Ancho del marcador */
+  height: 24px; /* Altura del marcador */
+  border-radius: 50%; /* Bordes redondeados */
+  background-color: #FF5733; /* Color original para la mayoría de los marcadores */
+  display: flex; /* Flexbox para centrar el contenido */
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal */
+  transition: transform 0.2s; /* Animación de transición */
+}
+
+.marker:hover {
+  transform: scale(1.2); /* Efecto de aumento al pasar el mouse */
+}
+
+.marker-number {
+  font-size: 10px; /* Tamaño de la fuente para el número */
+  color: #ffffff; /* Color del número */
+  font-weight: bold; /* Negrita para el número */
+}
+
+.marker-green {
+  background-color: #28a745; /* Color verde para el marcador especial */
+}
